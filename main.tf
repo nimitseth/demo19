@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "bucket1" {
-	bucket = "jayaci-first-st-bucket"
+	bucket = "jayaci-first-st-bucket-nimitseth"
 }
 
 resource "aws_s3_bucket_acl" "example_bucket_acl" {
