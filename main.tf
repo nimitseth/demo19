@@ -4,7 +4,7 @@ resource "aws_s3_bucket" "bucket1" {
 
 resource "aws_s3_bucket_acl" "example_bucket_acl" {
 bucket = aws_s3_bucket.bucket1.id
-acl = "public"
+acl = "public-read-write"
 }
 
 provider "aws" {
